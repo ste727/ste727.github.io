@@ -394,6 +394,7 @@ article .icon {
 .project-title {
   margin: 1rem;
   color: var(--heading-color);
+  font-size: medium;
 }
 
 .project-btn {
@@ -407,9 +408,9 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: auto; /* Let the height adjust based on the content */
-    padding-top: 2rem; /* Add reasonable padding */
-    margin-top: 0; /* Remove extra top margin */
+    height: auto;
+    padding-top: 2rem;
+    margin-top: 0;
 }
 
 .contact-info-upper-container {
@@ -446,11 +447,11 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-    margin-top: 0; /* Prevent additional space above the footer */
-    padding-top: 2rem; /* Add padding if needed */
-    height: auto; /* Let the footer height adjust */
+    margin-top: 0;
+    padding-top: 2rem;
+    height: auto;
   }
-  
+
   footer p {
     text-align: center;
   }
